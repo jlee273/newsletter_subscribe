@@ -1,8 +1,17 @@
-.asiafilmlab {
-  text-align: center;
-  font-family: sans-serif;
-  
+
+@keyframes rotate360 {
+  to {
+    transform: rotate(360deg);
+  }
 }
+img {
+  width: 10%;
+  top: 50%;
+  left: 50%;
+  animation: 2s rotate360 infinite linear;
+}
+  
+
 
 .newsletter-form {
     --primary: #275efe;
