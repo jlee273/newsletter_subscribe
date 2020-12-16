@@ -1,4 +1,5 @@
 
+
 @keyframes rotate360 {
   to {
     transform: rotate(360deg);
@@ -22,7 +23,8 @@ h1 {
 
 
 .newsletter-form {
-    --primary: #275efe;
+  
+    --primary: #00b7ff;
     --primary-dark: #2055ee;
     --primary-darkest: #133fc0;
     --input-placeholder: #a6accd;
@@ -298,27 +300,6 @@ h1 {
             justify-content: center;
     -webkit-box-align: center;
             align-items: center;
-    background: #f6f8ff;
+    background: #ffffff;
   }
-  body .dribbble {
-    position: fixed;
-    display: block;
-    right: 20px;
-    bottom: 20px;
-  }
-  body .dribbble img {
-    display: block;
-    height: 28px;
-  }
-  body .twitter {
-    position: fixed;
-    display: block;
-    right: 64px;
-    bottom: 14px;
-  }
-  body .twitter svg {
-    width: 32px;
-    height: 32px;
-    fill: #1da1f2;
-  }
-  
+ 
