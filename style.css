@@ -17,14 +17,14 @@ h1 {
   position: absolute;
   top: 38%;
   left: 42%;
-  color: rgba(15, 153, 233, 0.637)
+  color: #0f99e9a2
 }
   
 
 
 .newsletter-form {
   
-    --primary: #00b7ff;
+    --primary: #0f99e9a2;
     --primary-dark: #2055ee;
     --primary-darkest: #133fc0;
     --input-placeholder: #a6accd;
@@ -136,10 +136,8 @@ h1 {
     min-width: 100px;
     text-align: center;
     font-weight: 600;
-    opacity: var(--button-opacity, 0.5);
     cursor: var(--button-cursor, not-allowed);
-    -webkit-filter: var(--button-filter, grayscale(65%));
-            filter: var(--button-filter, grayscale(65%));
+    
     color: var(--button-text);
     border-radius: var(--border-radius);
     -webkit-transform: translateZ(0);
