@@ -4,7 +4,7 @@
   }
 }
 img {
-  position: absolute;
+  position: relative;
   width: 7%;
   top: 25%;
   left: 46%;
@@ -13,7 +13,7 @@ img {
 
 
 h1 {
-  position: absolute;
+  position: relative;
   top: 38%;
   left: 42%;
   color: #27B6EA;
@@ -25,14 +25,14 @@ h1 {
     and (-webkit-device-pixel-ratio : 2) { 
       
       .img {
-      position: absolute;
+      position: relative;
       width: 10%;
       top: 25%;
       left: 46%;
       animation: 2s rotate360 infinite linear;
     }
   
-    .h1 { position: absolute;
+    .h1 { position: relative;
         top: 38%;
         left: 38%;
         color: #27B6EA;
