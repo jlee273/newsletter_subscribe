@@ -19,23 +19,27 @@ h1 {
   color: #27B6EA;
 }
 
-@media (max-width:768px){
+@media only screen 
+    and (device-width : 414px) 
+    and (device-height : 896px) 
+    and (-webkit-device-pixel-ratio : 2) { img {
+      position: absolute;
+      width: 10%;
+      top: 25%;
+      left: 46%;
+      animation: 2s rotate360 infinite linear;
+    }
+  
+    .h1 { position: absolute;
+        top: 38%;
+        left: 38%;
+        color: #27B6EA;
+  }}
 
-  #img {
-    position: absolute;
-    width: 10%;
-    top: 25%;
-    left: 46%;
-    animation: 2s rotate360 infinite linear;
-  }
 
-  #h1 { position: absolute;
-      top: 38%;
-      left: 38%;
-      color: #27B6EA;
-}
+  
 
-}
+
   
 
 
