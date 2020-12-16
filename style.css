@@ -21,6 +21,14 @@ h1 {
 
 @media (max-width:768px){
 
+  #img {
+    position: absolute;
+    width: 10%;
+    top: 25%;
+    left: 46%;
+    animation: 2s rotate360 infinite linear;
+  }
+
   #h1 { position: absolute;
       top: 38%;
       left: 38%;
