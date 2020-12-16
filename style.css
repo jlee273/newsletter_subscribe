@@ -26,9 +26,9 @@ only screen and (min-device-pixel-ratio : 1.5) {
 }
 img {
   position: absolute;
-  width: 10%;
-  top: 20%;
-  left: 45%;
+  width: 7%;
+  top: 25%;
+  left: 46%;
   animation: 2s rotate360 infinite linear;
 }
 
@@ -36,14 +36,14 @@ h1 {
   position: absolute;
   top: 38%;
   left: 42%;
-  color: #0f99e9a2
+  color: #27B6EA;
 }
   
 
 
 .newsletter-form {
   
-    --primary: #0f99e9a2;
+    --primary: #27B6EA;
     --primary-dark: #2055ee;
     --primary-darkest: #133fc0;
     --input-placeholder: #a6accd;
