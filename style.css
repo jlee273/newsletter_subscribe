@@ -19,24 +19,6 @@ h1 {
   color: #27B6EA;
 }
 
-@media screen 
-    and (device-width : 414px) 
-    and (device-height : 896px) 
-    and (-webkit-device-pixel-ratio : 2) { 
-      
-      .img {
-        display: block;
-        margin: auto;
-        width: 70px;
-        height: 70px;
-      animation: 2s rotate360 infinite linear;
-    }
-  
-    .h1 { 
-        text-align: center;
-        color: #27B6EA;
-  }}
-
 
   
 
