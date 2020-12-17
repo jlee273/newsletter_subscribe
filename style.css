@@ -1,6 +1,4 @@
-div {
-  display:block;
-}
+
 
 @keyframes rotate360 {
   to {
@@ -8,18 +6,16 @@ div {
   }
 }
 img {
-  position: fixed;
-  width: 7%;
-  top: 25%;
-  left: 46%;
+  display: block;
+  margin: auto;
+  width: 60px;
+  height: 60px;
   animation: 2s rotate360 infinite linear;
 }
 
 
 h1 {
-  position: fixed;
-  top: 38%;
-  left: 42%;
+ text-align: center;
   color: #27B6EA;
 }
 
@@ -29,16 +25,15 @@ h1 {
     and (-webkit-device-pixel-ratio : 2) { 
       
       .img {
-      position: fixed;
-      width: 10%;
-      top: 25%;
-      left: 46%;
+        display: block;
+        margin: auto;
+        width: 70px;
+        height: 70px;
       animation: 2s rotate360 infinite linear;
     }
   
-    .h1 { position: fixed;
-        top: 38%;
-        left: 38%;
+    .h1 { 
+        text-align: center;
         color: #27B6EA;
   }}
 
