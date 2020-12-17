@@ -1,4 +1,7 @@
+div {
+  display: block;
 
+}
 
 @keyframes rotate360 {
   to {
